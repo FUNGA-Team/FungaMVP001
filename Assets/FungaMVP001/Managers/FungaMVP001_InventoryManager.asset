@@ -59,7 +59,11 @@ MonoBehaviour:
     useActionList: {fileID: 0}
     lookActionList: {fileID: 0}
     interactions: []
-    combineInteractions: []
+    combineInteractions:
+    - actionList: {fileID: 11400000, guid: 0980b2c2ec5314ddbb2cd452179a5465, type: 2}
+      idPlusOne: 2
+      combineID: 0
+      disabledOnStart: 0
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
@@ -126,7 +130,7 @@ MonoBehaviour:
   - label: FungiKey
     id: 2
     altLabel: Llave Hongo
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
